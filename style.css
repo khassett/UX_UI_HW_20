@@ -636,3 +636,14 @@
         margin-right: 30px;
         width: 700px;
       }
+
+      .center-column{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+
+      .img-col-right{
+          margin-left: 30px;
+          width: 780px;
+      }
