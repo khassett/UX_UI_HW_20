@@ -446,23 +446,20 @@
     }
 
     .work-img1 {
-        background: center center url(./images/narika.png) no-repeat;
         background-size: contain;
-        min-height: 500px;
+        max-width: 500px;
         margin-right: 50px;
     }
 
     .work-img2 {
-        background: center center url("./images/PuppyLove.png") no-repeat;
         background-size: contain;
-        min-height: 500px;
+        max-width: 500px;
         margin-left: 50px;
     }
 
     .work-img3 {
-        background: center center url("./images/Edgov.png") no-repeat;
         background-size: contain;
-        min-height: 500px;
+        max-width: 500px;
         margin-right: 50px;
     }
 
@@ -598,7 +595,6 @@
     .rect{
         width: 324px;
         height: 296px;
-
         background: #0000;
         box-shadow: 0px 4px 30px #E5E0E9;
         border-radius: 48px;
@@ -626,10 +622,11 @@
       }
 
       .stake-col{
-        background-color: #f0eef3;
+        background-color: white;
         border-radius: 30px;
         padding: 20px;
         margin: 20px;
+        color: #592C5F;
       }
 
       .img2{
@@ -660,3 +657,17 @@
       .purple-background{
         background-color: #f0eef3;
       }
+
+        .column-right{
+            margin-left: 30px;
+            margin-right: 100px;
+            margin-top: 100px;
+            margin-bottom: 70px;
+        }
+
+        .column-left{
+            margin-left: 100px;
+            margin-right: 30px;
+            margin-top: 100px;
+            margin-bottom: 70px; 
+        }
